@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0e1011;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+}
+
+.header .logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.main-content {
+  margin-top: 20px;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  display: flex;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #fff;
+}
+
+.content-section {
+  display: flex;
+  gap: 20px;
+}
+
+.news-section, .community-section {
+  flex: 1;
+}
+.news-section h2, .community-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.news-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.news-item h3 {
+  font-size: 20px;
+}
+.swiper-wrapper , h1{
+  background: linear-gradient(180.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  background-clip:text;
+  text-fill-color: transparent;
+  font-family: Quantico;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 46px;
+  text-align: center;
+}
+.swiper-slide{
+  margin: 0 auto;
+  margin-right: 190px;
+}
+.news-item p {
+  color: rgb(191, 191, 191);
+  font-family: "Quantico";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.news-item img {
+  width: 100%;
+  height: auto;
+}
+
+.community-section img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #333;
+}
